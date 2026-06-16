@@ -1,3 +1,4 @@
+# O(n)
 def solution(array, height):
     answer = 0
     
@@ -13,3 +14,4 @@ def solution(array, height):
 #     array.append(height)
 #     array.sort(reverse=True)
 #     return array.index(height)
+# O(nlogn)
