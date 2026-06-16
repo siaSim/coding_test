@@ -6,3 +6,9 @@ def solution(array, n):
             answer += 1
     
     return answer
+
+
+
+
+# def solution(array, n):
+#     return array.count(n)
