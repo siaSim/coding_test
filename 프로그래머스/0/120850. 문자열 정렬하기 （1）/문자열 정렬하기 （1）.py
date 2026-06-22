@@ -1,9 +1,9 @@
 def solution(my_string):
     answer = []
-     
-    for str in my_string:
-        if str in "0123456789":
-            answer.append(int(str))
-    
+
+    for ch in my_string:
+        if ch.isdigit():
+            answer.append(int(ch))
+
     answer.sort()
     return answer
